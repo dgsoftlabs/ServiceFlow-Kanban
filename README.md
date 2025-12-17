@@ -418,3 +418,4 @@ MIT
 <!-- build(api): update code -->
 <!-- build(api): update performance -->
 <!-- docs(utils): merge code -->
+<!-- test(api): fix error handling -->
