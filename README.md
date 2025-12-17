@@ -286,3 +286,4 @@ MIT
 <!-- docs(api): optimize performance -->
 <!-- docs(api): refactor bug -->
 <!-- perf(config): refactor error handling -->
+<!-- chore(api): refactor bug -->
