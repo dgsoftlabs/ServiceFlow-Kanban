@@ -256,3 +256,4 @@ MIT
 <!-- refactor: improve error handling logic -->
 <!-- docs: update contributing guidelines -->
 <!-- style: normalize css properties -->
+<!-- chore: remove unused files -->
