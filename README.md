@@ -271,3 +271,4 @@ MIT
 <!-- refactor(admin): improve error handling -->
 <!-- refactor(auth): update code -->
 <!-- perf(config): fix component -->
+<!-- feat(dashboard): fix documentation -->
