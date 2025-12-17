@@ -426,3 +426,4 @@ MIT
 <!-- perf(ui): optimize performance -->
 <!-- style(ui): update code -->
 <!-- perf(auth): revert component -->
+<!-- chore(deps): update validation -->
