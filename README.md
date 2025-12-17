@@ -280,3 +280,4 @@ MIT
 <!-- style(ui): add tests -->
 <!-- feat(dashboard): clean error handling -->
 <!-- test(auth): update performance -->
+<!-- fix(config): refactor code -->
