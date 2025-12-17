@@ -297,3 +297,4 @@ MIT
 <!-- feat(deps): add styles -->
 <!-- perf(auth): fix component -->
 <!-- fix(deps): optimize layout -->
+<!-- style(dashboard): update error handling -->
