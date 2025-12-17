@@ -423,3 +423,4 @@ MIT
 <!-- ci(kanban): clean logic -->
 <!-- refactor(ui): update error handling -->
 <!-- style(utils): add bug -->
+<!-- perf(ui): optimize performance -->
