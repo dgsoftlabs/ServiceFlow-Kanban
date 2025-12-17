@@ -473,3 +473,4 @@ MIT
 <!-- docs(admin): remove code -->
 <!-- refactor(dashboard): update error handling -->
 <!-- refactor(utils): add error handling -->
+<!-- chore(ui): add validation -->
