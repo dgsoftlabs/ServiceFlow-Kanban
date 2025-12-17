@@ -13,16 +13,16 @@ export default async function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className="min-h-screen flex flex-col bg-slate-50">
       <PublicHeader />
-      <main className="flex-1 flex items-center justify-center py-12">
-        <div className="max-w-md w-full space-y-8 p-8 bg-white rounded-lg shadow-lg">
+      <main className="flex-1 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-md w-full space-y-8 p-10 bg-white rounded-2xl shadow-xl border border-slate-100">
           <div>
-            <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-              Sign in to your account
+            <h2 className="mt-2 text-center text-3xl font-bold text-slate-900 tracking-tight">
+              Welcome back
             </h2>
-            <p className="mt-2 text-center text-sm text-gray-600">
-              Manufacturing workflow management
+            <p className="mt-2 text-center text-sm text-slate-600">
+              Sign in to access your manufacturing dashboard
             </p>
           </div>
           <LoginForm />

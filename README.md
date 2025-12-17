@@ -9,6 +9,9 @@ ServiceFlow Kanban is a fullstack web application built entirely with Next.js, d
 
 The system combines frontend UI and backend logic in a single Next.js application, making it lightweight, fast to deploy, and ideal for SaaS or internal company tools.
 
+### Kanban Board
+![ServiceFlow Kanban Board](ServiceFlow.png)
+
 ## 🎯 Business Problem
 
 Manufacturing companies often manage tasks using emails, spreadsheets, or disconnected tools, which leads to: 
@@ -201,7 +204,7 @@ Next.js (App Router)
 ## 📷 Screenshots
 
 ### Kanban Board
-> Coming soon
+![ServiceFlow Kanban Board](ServiceFlow.png)
 
 ### Task Detail View
 > Coming soon

@@ -78,11 +78,13 @@ export default function LoginForm() {
         {loading ? 'Signing in...' : 'Sign in'}
       </Button>
 
-      <div className="text-sm text-gray-500 text-center mt-4">
-        <p className="font-semibold">Demo accounts:</p>
-        <p>admin@serviceflow.com / password123</p>
-        <p>manager@serviceflow.com / password123</p>
-        <p>worker1@serviceflow.com / password123</p>
+      <div className="text-xs text-slate-500 text-center mt-6 bg-slate-50 p-4 rounded-lg border border-slate-100">
+        <p className="font-semibold text-slate-700 mb-2">Demo Credentials:</p>
+        <div className="space-y-1 font-mono">
+          <p>admin@serviceflow.com / password123</p>
+          <p>manager@serviceflow.com / password123</p>
+          <p>worker1@serviceflow.com / password123</p>
+        </div>
       </div>
     </form>
   )
