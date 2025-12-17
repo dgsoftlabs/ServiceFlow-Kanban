@@ -307,3 +307,4 @@ MIT
 <!-- test(ui): fix styles -->
 <!-- style(deps): improve bug -->
 <!-- fix(kanban): optimize bug -->
+<!-- perf(config): fix component -->
