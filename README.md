@@ -248,3 +248,4 @@ MIT
 <!-- style: fix indentation -->
 <!-- chore: update dev dependencies -->
 <!-- fix: resolve mobile view issue -->
+<!-- feat: optimize performance -->
