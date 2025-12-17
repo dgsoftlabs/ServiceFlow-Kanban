@@ -268,3 +268,4 @@ MIT
 <!-- chore(auth): add component -->
 <!-- chore(config): remove error handling -->
 <!-- style(config): optimize styles -->
+<!-- refactor(admin): improve error handling -->
