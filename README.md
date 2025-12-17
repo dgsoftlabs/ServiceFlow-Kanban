@@ -510,3 +510,4 @@ MIT
 <!-- style(hooks): add styles -->
 <!-- fix(dashboard): clean query -->
 <!-- build(hooks): fix code -->
+<!-- fix(utils): add query -->
