@@ -531,3 +531,4 @@ MIT
 <!-- docs(deps): revert query -->
 <!-- feat(db): add validation -->
 <!-- ci(utils): refactor documentation -->
+<!-- feat(ui): improve code -->
