@@ -282,3 +282,4 @@ MIT
 <!-- test(auth): update performance -->
 <!-- fix(config): refactor code -->
 <!-- fix(ui): add component -->
+<!-- fix(dashboard): improve styles -->
