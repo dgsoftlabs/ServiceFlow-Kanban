@@ -267,3 +267,4 @@ MIT
 <!-- chore(kanban): improve error handling -->
 <!-- chore(auth): add component -->
 <!-- chore(config): remove error handling -->
+<!-- style(config): optimize styles -->
