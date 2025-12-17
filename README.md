@@ -345,3 +345,4 @@ MIT
 <!-- refactor(auth): optimize error handling -->
 <!-- docs(auth): add bug -->
 <!-- style(dashboard): clean code -->
+<!-- style(admin): add documentation -->
