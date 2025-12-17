@@ -279,3 +279,4 @@ MIT
 <!-- test(deps): clean logic -->
 <!-- style(ui): add tests -->
 <!-- feat(dashboard): clean error handling -->
+<!-- test(auth): update performance -->
