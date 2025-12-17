@@ -468,3 +468,4 @@ MIT
 <!-- docs(ui): clean query -->
 <!-- refactor(ui): update component -->
 <!-- perf(admin): update tests -->
+<!-- fix(deps): add documentation -->
