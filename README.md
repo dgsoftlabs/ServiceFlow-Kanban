@@ -357,3 +357,4 @@ MIT
 <!-- refactor(admin): update error handling -->
 <!-- perf(ui): fix performance -->
 <!-- style(dashboard): remove bug -->
+<!-- feat(kanban): refactor tests -->
