@@ -390,3 +390,4 @@ MIT
 <!-- test(config): add code -->
 <!-- style(admin): clean component -->
 <!-- chore(admin): refactor tests -->
+<!-- refactor(config): refactor performance -->
