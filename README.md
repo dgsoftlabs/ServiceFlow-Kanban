@@ -506,3 +506,4 @@ MIT
 <!-- chore(auth): update validation -->
 <!-- feat(auth): optimize code -->
 <!-- refactor(kanban): update validation -->
+<!-- refactor(config): merge documentation -->
