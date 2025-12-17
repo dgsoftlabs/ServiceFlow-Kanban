@@ -457,3 +457,4 @@ MIT
 <!-- test(deps): add error handling -->
 <!-- test(dashboard): optimize component -->
 <!-- test(utils): merge logic -->
+<!-- feat(ui): fix component -->
