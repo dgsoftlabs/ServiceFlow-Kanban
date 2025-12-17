@@ -471,3 +471,4 @@ MIT
 <!-- fix(deps): add documentation -->
 <!-- docs(auth): revert component -->
 <!-- docs(admin): remove code -->
+<!-- refactor(dashboard): update error handling -->
