@@ -281,3 +281,4 @@ MIT
 <!-- feat(dashboard): clean error handling -->
 <!-- test(auth): update performance -->
 <!-- fix(config): refactor code -->
+<!-- fix(ui): add component -->
