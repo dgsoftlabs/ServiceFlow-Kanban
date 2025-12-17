@@ -532,3 +532,4 @@ MIT
 <!-- feat(db): add validation -->
 <!-- ci(utils): refactor documentation -->
 <!-- feat(ui): improve code -->
+<!-- feat(hooks): optimize validation -->
