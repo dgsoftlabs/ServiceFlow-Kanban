@@ -1,6 +1,6 @@
 import { getServerSession } from 'next-auth'
 import { redirect } from 'next/navigation'
-import { authOptions } from '../api/auth/[...nextauth]/route'
+import { authOptions } from '@/lib/auth'
 import LoginForm from '@/components/auth/login-form'
 import PublicHeader from '@/components/layout/public-header'
 import Footer from '@/components/layout/footer'

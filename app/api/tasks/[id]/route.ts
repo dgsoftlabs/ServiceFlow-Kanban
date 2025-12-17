@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
-import { authOptions } from '../../auth/[...nextauth]/route'
+import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
 import { UserRole } from '@/lib/types'
 import { canEditTask, canDeleteTask } from '@/lib/permissions'
@@ -110,11 +110,14 @@ export async function PATCH(request: NextRequest, { params }: RouteParams) {
     }
     
     // Only apply other updates if they exist in the validated data
-    if ('title' in data) updates.title = data.title
-    if ('description' in data) updates.description = data.description
-    if ('priority' in data) updates.priority = data.priority
-    if ('dueDate' in data) updates.dueDate = data.dueDate ? new Date(data.dueDate) : null
-    if ('assignedToId' in data) updates.assignedToId = data.assignedToId
+    if ('title' in data) updates.title = (data as any).title
+    if ('description' in data) updates.description = (data as any).description
+    if ('priority' in data) updates.priority = (data as any).priority
+    if ('dueDate' in data) {
+      const dateVal = (data as any).dueDate
+      updates.dueDate = dateVal ? new Date(dateVal) : null
+    }
+    if ('assignedToId' in data) updates.assignedToId = (data as any).assignedToId
     if ('isBlocked' in data) updates.isBlocked = data.isBlocked
     if ('blockReason' in data) updates.blockReason = data.blockReason
 
