@@ -312,3 +312,4 @@ MIT
 <!-- fix(ui): update styles -->
 <!-- perf(db): add component -->
 <!-- feat(auth): update performance -->
+<!-- feat(auth): refactor performance -->
