@@ -244,3 +244,4 @@ MIT
 <!-- chore: cleanup configuration -->
 <!-- fix: minor ui glitch -->
 <!-- refactor: simplify component structure -->
+<!-- docs: refine installation guide -->
