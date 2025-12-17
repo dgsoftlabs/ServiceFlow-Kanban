@@ -542,3 +542,4 @@ MIT
 <!-- refactor(kanban): optimize styles -->
 <!-- ci(utils): refactor documentation -->
 <!-- refactor(ui): clean tests -->
+<!-- feat(config): add logic -->
