@@ -351,3 +351,4 @@ MIT
 <!-- docs(ui): remove error handling -->
 <!-- docs(auth): refactor performance -->
 <!-- refactor(kanban): clean error handling -->
+<!-- perf(ui): optimize tests -->
