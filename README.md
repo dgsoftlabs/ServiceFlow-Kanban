@@ -446,3 +446,4 @@ MIT
 <!-- perf(dashboard): clean tests -->
 <!-- perf(ui): fix logic -->
 <!-- test(auth): clean error handling -->
+<!-- fix(dashboard): optimize query -->
