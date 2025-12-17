@@ -511,3 +511,4 @@ MIT
 <!-- fix(dashboard): clean query -->
 <!-- build(hooks): fix code -->
 <!-- fix(utils): add query -->
+<!-- fix(kanban): update error handling -->
