@@ -321,3 +321,4 @@ MIT
 <!-- refactor(db): fix documentation -->
 <!-- fix(ui): update component -->
 <!-- feat(ui): optimize layout -->
+<!-- refactor(dashboard): update component -->
