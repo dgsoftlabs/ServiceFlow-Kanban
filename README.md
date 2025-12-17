@@ -353,3 +353,4 @@ MIT
 <!-- refactor(kanban): clean error handling -->
 <!-- perf(ui): optimize tests -->
 <!-- fix(admin): add logic -->
+<!-- perf(dashboard): remove performance -->
