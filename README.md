@@ -277,3 +277,4 @@ MIT
 <!-- docs(ui): remove component -->
 <!-- docs(ui): update performance -->
 <!-- test(deps): clean logic -->
+<!-- style(ui): add tests -->
