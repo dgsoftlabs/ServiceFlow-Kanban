@@ -455,3 +455,4 @@ MIT
 <!-- feat(deps): update code -->
 <!-- perf(admin): optimize documentation -->
 <!-- test(deps): add error handling -->
+<!-- test(dashboard): optimize component -->
