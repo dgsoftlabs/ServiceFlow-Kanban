@@ -557,3 +557,4 @@ MIT
 <!-- chore(deps): clean query -->
 <!-- perf(kanban): improve documentation -->
 <!-- test(config): improve logic -->
+<!-- chore(admin): add tests -->
