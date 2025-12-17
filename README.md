@@ -254,3 +254,4 @@ MIT
 <!-- chore: organize imports -->
 <!-- fix: typo in variable name -->
 <!-- refactor: improve error handling logic -->
+<!-- docs: update contributing guidelines -->
