@@ -505,3 +505,4 @@ MIT
 <!-- feat(db): fix layout -->
 <!-- chore(auth): update validation -->
 <!-- feat(auth): optimize code -->
+<!-- refactor(kanban): update validation -->
