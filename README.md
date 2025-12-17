@@ -516,3 +516,4 @@ MIT
 <!-- style(dashboard): revert performance -->
 <!-- build(hooks): fix validation -->
 <!-- build(config): remove documentation -->
+<!-- ci(ui): optimize code -->
