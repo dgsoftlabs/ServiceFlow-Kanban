@@ -395,3 +395,4 @@ MIT
 <!-- test(kanban): update component -->
 <!-- refactor(db): revert bug -->
 <!-- test(api): merge bug -->
+<!-- perf(deps): revert performance -->
