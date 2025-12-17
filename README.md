@@ -341,3 +341,4 @@ MIT
 <!-- perf(deps): remove error handling -->
 <!-- refactor(db): remove code -->
 <!-- perf(api): refactor code -->
+<!-- fix(deps): update component -->
