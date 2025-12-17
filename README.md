@@ -349,3 +349,4 @@ MIT
 <!-- chore(config): update tests -->
 <!-- perf(db): optimize tests -->
 <!-- docs(ui): remove error handling -->
+<!-- docs(auth): refactor performance -->
