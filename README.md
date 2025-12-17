@@ -454,3 +454,4 @@ MIT
 <!-- refactor(ui): fix bug -->
 <!-- feat(deps): update code -->
 <!-- perf(admin): optimize documentation -->
+<!-- test(deps): add error handling -->
