@@ -523,3 +523,4 @@ MIT
 <!-- style(hooks): remove error handling -->
 <!-- test(dashboard): add performance -->
 <!-- build(admin): merge bug -->
+<!-- perf(api): remove component -->
