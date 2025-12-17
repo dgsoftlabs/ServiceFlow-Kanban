@@ -283,3 +283,4 @@ MIT
 <!-- fix(config): refactor code -->
 <!-- fix(ui): add component -->
 <!-- fix(dashboard): improve styles -->
+<!-- docs(api): optimize performance -->
