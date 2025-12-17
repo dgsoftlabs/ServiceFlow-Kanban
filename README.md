@@ -514,3 +514,4 @@ MIT
 <!-- fix(kanban): update error handling -->
 <!-- style(ui): update bug -->
 <!-- style(dashboard): revert performance -->
+<!-- build(hooks): fix validation -->
