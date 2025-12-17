@@ -403,3 +403,4 @@ MIT
 <!-- feat(deps): fix documentation -->
 <!-- ci(admin): optimize performance -->
 <!-- build(config): revert code -->
+<!-- test(deps): remove error handling -->
