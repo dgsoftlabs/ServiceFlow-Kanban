@@ -347,3 +347,4 @@ MIT
 <!-- style(dashboard): clean code -->
 <!-- style(admin): add documentation -->
 <!-- chore(config): update tests -->
+<!-- perf(db): optimize tests -->
