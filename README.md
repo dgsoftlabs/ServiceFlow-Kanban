@@ -508,3 +508,4 @@ MIT
 <!-- refactor(kanban): update validation -->
 <!-- refactor(config): merge documentation -->
 <!-- style(hooks): add styles -->
+<!-- fix(dashboard): clean query -->
