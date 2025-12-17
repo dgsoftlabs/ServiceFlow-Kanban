@@ -512,3 +512,4 @@ MIT
 <!-- build(hooks): fix code -->
 <!-- fix(utils): add query -->
 <!-- fix(kanban): update error handling -->
+<!-- style(ui): update bug -->
