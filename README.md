@@ -482,3 +482,4 @@ MIT
 <!-- docs(admin): refactor logic -->
 <!-- test(dashboard): optimize documentation -->
 <!-- refactor(api): clean logic -->
+<!-- feat(kanban): merge performance -->
