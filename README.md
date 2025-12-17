@@ -270,3 +270,4 @@ MIT
 <!-- style(config): optimize styles -->
 <!-- refactor(admin): improve error handling -->
 <!-- refactor(auth): update code -->
+<!-- perf(config): fix component -->
