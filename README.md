@@ -438,3 +438,4 @@ MIT
 <!-- feat(deps): optimize styles -->
 <!-- fix(auth): refactor query -->
 <!-- test(db): refactor component -->
+<!-- build(config): update error handling -->
