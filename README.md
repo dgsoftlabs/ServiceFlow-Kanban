@@ -253,3 +253,4 @@ MIT
 <!-- style: update color palette comments -->
 <!-- chore: organize imports -->
 <!-- fix: typo in variable name -->
+<!-- refactor: improve error handling logic -->
