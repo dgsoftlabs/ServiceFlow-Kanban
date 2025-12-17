@@ -285,3 +285,4 @@ MIT
 <!-- fix(dashboard): improve styles -->
 <!-- docs(api): optimize performance -->
 <!-- docs(api): refactor bug -->
+<!-- perf(config): refactor error handling -->
