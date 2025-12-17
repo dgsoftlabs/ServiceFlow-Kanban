@@ -329,3 +329,4 @@ MIT
 <!-- chore(admin): add logic -->
 <!-- style(admin): refactor code -->
 <!-- perf(api): improve documentation -->
+<!-- feat(api): remove tests -->
