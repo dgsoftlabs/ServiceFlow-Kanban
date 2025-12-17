@@ -335,3 +335,4 @@ MIT
 <!-- fix(db): remove tests -->
 <!-- refactor(db): update logic -->
 <!-- fix(admin): clean component -->
+<!-- refactor(dashboard): fix documentation -->
