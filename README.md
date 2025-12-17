@@ -537,3 +537,4 @@ MIT
 <!-- feat(kanban): update validation -->
 <!-- fix(ui): remove query -->
 <!-- build(ui): optimize tests -->
+<!-- perf(dashboard): merge error handling -->
