@@ -365,3 +365,4 @@ MIT
 <!-- refactor(ui): refactor layout -->
 <!-- docs(ui): fix performance -->
 <!-- chore(ui): fix error handling -->
+<!-- fix(config): fix tests -->
