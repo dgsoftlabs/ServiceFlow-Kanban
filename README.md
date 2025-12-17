@@ -370,3 +370,4 @@ MIT
 <!-- fix(auth): revert documentation -->
 <!-- fix(admin): optimize error handling -->
 <!-- chore(ui): fix validation -->
+<!-- fix(config): optimize validation -->
