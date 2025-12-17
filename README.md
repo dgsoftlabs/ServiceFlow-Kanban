@@ -538,3 +538,4 @@ MIT
 <!-- fix(ui): remove query -->
 <!-- build(ui): optimize tests -->
 <!-- perf(dashboard): merge error handling -->
+<!-- refactor(deps): refactor documentation -->
