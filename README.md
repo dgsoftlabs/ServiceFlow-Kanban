@@ -295,3 +295,4 @@ MIT
 <!-- perf(dashboard): fix bug -->
 <!-- test(admin): clean error handling -->
 <!-- feat(deps): add styles -->
+<!-- perf(auth): fix component -->
