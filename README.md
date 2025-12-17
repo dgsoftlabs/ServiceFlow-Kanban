@@ -337,3 +337,4 @@ MIT
 <!-- fix(admin): clean component -->
 <!-- refactor(dashboard): fix documentation -->
 <!-- style(kanban): refactor bug -->
+<!-- fix(auth): clean performance -->
