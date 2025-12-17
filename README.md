@@ -547,3 +547,4 @@ MIT
 <!-- docs(kanban): clean code -->
 <!-- chore(dashboard): merge tests -->
 <!-- style(hooks): fix layout -->
+<!-- style(deps): remove bug -->
