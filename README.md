@@ -519,3 +519,4 @@ MIT
 <!-- ci(ui): optimize code -->
 <!-- refactor(ui): clean layout -->
 <!-- docs(auth): fix logic -->
+<!-- fix(kanban): clean documentation -->
