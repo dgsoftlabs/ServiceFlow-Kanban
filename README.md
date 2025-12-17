@@ -554,3 +554,4 @@ MIT
 <!-- docs(hooks): merge logic -->
 <!-- build(admin): update query -->
 <!-- feat(config): update tests -->
+<!-- chore(deps): clean query -->
