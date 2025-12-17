@@ -536,3 +536,4 @@ MIT
 <!-- feat(dashboard): update styles -->
 <!-- feat(kanban): update validation -->
 <!-- fix(ui): remove query -->
+<!-- build(ui): optimize tests -->
