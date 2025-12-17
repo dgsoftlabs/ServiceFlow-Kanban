@@ -421,3 +421,4 @@ MIT
 <!-- test(api): fix error handling -->
 <!-- refactor(utils): merge bug -->
 <!-- ci(kanban): clean logic -->
+<!-- refactor(ui): update error handling -->
