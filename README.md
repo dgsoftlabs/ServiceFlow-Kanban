@@ -466,3 +466,4 @@ MIT
 <!-- build(db): clean query -->
 <!-- refactor(dashboard): fix tests -->
 <!-- docs(ui): clean query -->
+<!-- refactor(ui): update component -->
