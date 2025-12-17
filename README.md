@@ -476,3 +476,4 @@ MIT
 <!-- chore(ui): add validation -->
 <!-- build(db): refactor query -->
 <!-- ci(dashboard): remove layout -->
+<!-- build(ui): update styles -->
