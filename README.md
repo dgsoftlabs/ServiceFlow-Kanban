@@ -250,3 +250,4 @@ MIT
 <!-- fix: resolve mobile view issue -->
 <!-- feat: optimize performance -->
 <!-- docs: add usage examples -->
+<!-- style: update color palette comments -->
