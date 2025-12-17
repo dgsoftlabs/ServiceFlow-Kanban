@@ -436,3 +436,4 @@ MIT
 <!-- feat(ui): remove tests -->
 <!-- feat(ui): revert documentation -->
 <!-- feat(deps): optimize styles -->
+<!-- fix(auth): refactor query -->
