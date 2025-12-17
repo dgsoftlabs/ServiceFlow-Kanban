@@ -533,3 +533,4 @@ MIT
 <!-- ci(utils): refactor documentation -->
 <!-- feat(ui): improve code -->
 <!-- feat(hooks): optimize validation -->
+<!-- feat(dashboard): update styles -->
