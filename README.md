@@ -262,3 +262,4 @@ MIT
 <!-- docs(auth): improve documentation -->
 <!-- refactor(ui): add logic -->
 <!-- refactor(admin): improve documentation -->
+<!-- feat(config): improve styles -->
