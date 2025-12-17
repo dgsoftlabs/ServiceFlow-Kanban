@@ -309,3 +309,4 @@ MIT
 <!-- fix(kanban): optimize bug -->
 <!-- perf(config): fix component -->
 <!-- perf(config): fix component -->
+<!-- fix(ui): update styles -->
