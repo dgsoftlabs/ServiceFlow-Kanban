@@ -509,3 +509,4 @@ MIT
 <!-- refactor(config): merge documentation -->
 <!-- style(hooks): add styles -->
 <!-- fix(dashboard): clean query -->
+<!-- build(hooks): fix code -->
