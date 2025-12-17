@@ -487,3 +487,4 @@ MIT
 <!-- style(kanban): optimize validation -->
 <!-- chore(admin): fix query -->
 <!-- ci(ui): remove tests -->
+<!-- fix(kanban): revert error handling -->
