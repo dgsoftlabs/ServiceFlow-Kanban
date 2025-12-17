@@ -392,3 +392,4 @@ MIT
 <!-- chore(admin): refactor tests -->
 <!-- refactor(config): refactor performance -->
 <!-- style(hooks): optimize layout -->
+<!-- test(kanban): update component -->
