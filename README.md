@@ -539,3 +539,4 @@ MIT
 <!-- build(ui): optimize tests -->
 <!-- perf(dashboard): merge error handling -->
 <!-- refactor(deps): refactor documentation -->
+<!-- refactor(kanban): optimize styles -->
