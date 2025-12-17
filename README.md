@@ -318,3 +318,4 @@ MIT
 <!-- perf(auth): add styles -->
 <!-- refactor(ui): fix bug -->
 <!-- fix(ui): refactor tests -->
+<!-- refactor(db): fix documentation -->
