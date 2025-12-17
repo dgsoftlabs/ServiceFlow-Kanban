@@ -346,3 +346,4 @@ MIT
 <!-- docs(auth): add bug -->
 <!-- style(dashboard): clean code -->
 <!-- style(admin): add documentation -->
+<!-- chore(config): update tests -->
