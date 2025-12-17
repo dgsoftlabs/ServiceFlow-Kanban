@@ -381,3 +381,4 @@ MIT
 <!-- test(api): update bug -->
 <!-- chore(ui): optimize styles -->
 <!-- perf(dashboard): merge validation -->
+<!-- feat(config): add validation -->
