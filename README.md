@@ -425,3 +425,4 @@ MIT
 <!-- style(utils): add bug -->
 <!-- perf(ui): optimize performance -->
 <!-- style(ui): update code -->
+<!-- perf(auth): revert component -->
