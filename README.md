@@ -338,3 +338,4 @@ MIT
 <!-- refactor(dashboard): fix documentation -->
 <!-- style(kanban): refactor bug -->
 <!-- fix(auth): clean performance -->
+<!-- perf(deps): remove error handling -->
