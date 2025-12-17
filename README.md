@@ -259,3 +259,4 @@ MIT
 <!-- chore: remove unused files -->
 <!-- fix: header alignment -->
 <!-- feat: update dashboard layout -->
+<!-- docs(auth): improve documentation -->
