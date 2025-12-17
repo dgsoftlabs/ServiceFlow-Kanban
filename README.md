@@ -314,3 +314,4 @@ MIT
 <!-- feat(auth): update performance -->
 <!-- feat(auth): refactor performance -->
 <!-- style(deps): optimize styles -->
+<!-- feat(auth): fix component -->
