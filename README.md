@@ -266,3 +266,4 @@ MIT
 <!-- refactor(config): improve performance -->
 <!-- chore(kanban): improve error handling -->
 <!-- chore(auth): add component -->
+<!-- chore(config): remove error handling -->
