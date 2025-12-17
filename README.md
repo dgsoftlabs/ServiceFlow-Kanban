@@ -459,3 +459,4 @@ MIT
 <!-- test(utils): merge logic -->
 <!-- feat(ui): fix component -->
 <!-- test(api): add code -->
+<!-- fix(ui): refactor component -->
