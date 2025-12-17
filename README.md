@@ -524,3 +524,4 @@ MIT
 <!-- test(dashboard): add performance -->
 <!-- build(admin): merge bug -->
 <!-- perf(api): remove component -->
+<!-- chore(dashboard): improve logic -->
