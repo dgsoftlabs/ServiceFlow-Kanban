@@ -522,3 +522,4 @@ MIT
 <!-- fix(kanban): clean documentation -->
 <!-- style(hooks): remove error handling -->
 <!-- test(dashboard): add performance -->
+<!-- build(admin): merge bug -->
