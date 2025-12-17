@@ -483,3 +483,4 @@ MIT
 <!-- test(dashboard): optimize documentation -->
 <!-- refactor(api): clean logic -->
 <!-- feat(kanban): merge performance -->
+<!-- docs(admin): revert documentation -->
