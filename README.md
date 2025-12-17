@@ -485,3 +485,4 @@ MIT
 <!-- feat(kanban): merge performance -->
 <!-- docs(admin): revert documentation -->
 <!-- style(kanban): optimize validation -->
+<!-- chore(admin): fix query -->
