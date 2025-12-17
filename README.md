@@ -246,3 +246,4 @@ MIT
 <!-- refactor: simplify component structure -->
 <!-- docs: refine installation guide -->
 <!-- style: fix indentation -->
+<!-- chore: update dev dependencies -->
