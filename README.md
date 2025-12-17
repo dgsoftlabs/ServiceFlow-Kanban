@@ -257,3 +257,4 @@ MIT
 <!-- docs: update contributing guidelines -->
 <!-- style: normalize css properties -->
 <!-- chore: remove unused files -->
+<!-- fix: header alignment -->
