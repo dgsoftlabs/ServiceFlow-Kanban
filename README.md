@@ -414,3 +414,4 @@ MIT
 <!-- build(db): merge bug -->
 <!-- test(admin): remove tests -->
 <!-- refactor(admin): clean component -->
+<!-- style(ui): refactor error handling -->
