@@ -304,3 +304,4 @@ MIT
 <!-- perf(config): add tests -->
 <!-- docs(dashboard): update layout -->
 <!-- perf(config): improve documentation -->
+<!-- test(ui): fix styles -->
