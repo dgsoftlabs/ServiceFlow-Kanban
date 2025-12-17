@@ -534,3 +534,4 @@ MIT
 <!-- feat(ui): improve code -->
 <!-- feat(hooks): optimize validation -->
 <!-- feat(dashboard): update styles -->
+<!-- feat(kanban): update validation -->
