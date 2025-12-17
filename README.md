@@ -12,6 +12,9 @@ The system combines frontend UI and backend logic in a single Next.js applicatio
 ### Kanban Board
 ![ServiceFlow Kanban Board](ServiceFlow.png)
 
+### Mobile View
+![ServiceFlow Mobile View](ServiceFlowMoble.png)
+
 ## 🎯 Business Problem
 
 Manufacturing companies often manage tasks using emails, spreadsheets, or disconnected tools, which leads to: 
