@@ -428,3 +428,4 @@ MIT
 <!-- perf(auth): revert component -->
 <!-- chore(deps): update validation -->
 <!-- style(api): improve bug -->
+<!-- chore(ui): optimize performance -->
