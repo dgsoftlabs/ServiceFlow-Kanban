@@ -343,3 +343,4 @@ MIT
 <!-- perf(api): refactor code -->
 <!-- fix(deps): update component -->
 <!-- refactor(auth): optimize error handling -->
+<!-- docs(auth): add bug -->
