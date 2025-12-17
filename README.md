@@ -348,3 +348,4 @@ MIT
 <!-- style(admin): add documentation -->
 <!-- chore(config): update tests -->
 <!-- perf(db): optimize tests -->
+<!-- docs(ui): remove error handling -->
