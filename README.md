@@ -521,3 +521,4 @@ MIT
 <!-- docs(auth): fix logic -->
 <!-- fix(kanban): clean documentation -->
 <!-- style(hooks): remove error handling -->
+<!-- test(dashboard): add performance -->
