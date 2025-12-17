@@ -260,3 +260,4 @@ MIT
 <!-- fix: header alignment -->
 <!-- feat: update dashboard layout -->
 <!-- docs(auth): improve documentation -->
+<!-- refactor(ui): add logic -->
