@@ -245,3 +245,4 @@ MIT
 <!-- fix: minor ui glitch -->
 <!-- refactor: simplify component structure -->
 <!-- docs: refine installation guide -->
+<!-- style: fix indentation -->
