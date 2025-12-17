@@ -306,3 +306,4 @@ MIT
 <!-- perf(config): improve documentation -->
 <!-- test(ui): fix styles -->
 <!-- style(deps): improve bug -->
+<!-- fix(kanban): optimize bug -->
