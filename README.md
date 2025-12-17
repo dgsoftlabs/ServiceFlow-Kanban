@@ -442,3 +442,4 @@ MIT
 <!-- feat(api): improve tests -->
 <!-- fix(config): revert query -->
 <!-- docs(deps): remove layout -->
+<!-- style(auth): fix error handling -->
