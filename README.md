@@ -528,3 +528,4 @@ MIT
 <!-- fix(hooks): optimize bug -->
 <!-- build(dashboard): clean logic -->
 <!-- test(api): add bug -->
+<!-- docs(deps): revert query -->
