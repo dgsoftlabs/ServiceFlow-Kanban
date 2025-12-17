@@ -535,3 +535,4 @@ MIT
 <!-- feat(hooks): optimize validation -->
 <!-- feat(dashboard): update styles -->
 <!-- feat(kanban): update validation -->
+<!-- fix(ui): remove query -->
