@@ -88,7 +88,7 @@ export default function KanbanBoard({
 
   return (
     <DndContext onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
-      <div className="flex gap-4 overflow-x-auto pb-4">
+      <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory px-4 md:px-0">
         {columns.map((column) => {
           const columnTasks = tasks.filter((task) => task.columnId === column.id)
           return (

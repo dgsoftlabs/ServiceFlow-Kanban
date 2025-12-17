@@ -28,7 +28,7 @@ export default function KanbanColumn({ column, tasks, userRole }: KanbanColumnPr
   const isAtWipLimit = column.wipLimit && tasks.length >= column.wipLimit
 
   return (
-    <div className="flex-shrink-0 w-80 flex flex-col h-full">
+    <div className="flex-shrink-0 w-[85vw] md:w-80 flex flex-col h-full snap-center">
       <div className="bg-slate-100/80 rounded-xl p-3 flex flex-col h-full border border-slate-200 shadow-sm">
         <div className="flex items-center justify-between mb-3 px-1">
           <div className="flex items-center gap-2.5">

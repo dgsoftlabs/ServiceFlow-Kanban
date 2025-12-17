@@ -44,10 +44,10 @@ export default async function KanbanPage() {
 
   return (
     <div className="space-y-6 h-full flex flex-col">
-      <div className="flex items-center justify-between bg-white p-6 rounded-lg shadow-sm border">
+      <div className="flex flex-col md:flex-row md:items-center justify-between bg-white p-4 md:p-6 rounded-lg shadow-sm border gap-4">
         <div>
-          <h1 className="text-3xl font-bold">Kanban Board</h1>
-          <p className="text-gray-600 mt-2">
+          <h1 className="text-2xl md:text-3xl font-bold">Kanban Board</h1>
+          <p className="text-gray-600 mt-1 md:mt-2 text-sm md:text-base">
             Manage your manufacturing tasks
           </p>
         </div>
