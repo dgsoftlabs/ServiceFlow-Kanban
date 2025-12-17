@@ -518,3 +518,4 @@ MIT
 <!-- build(config): remove documentation -->
 <!-- ci(ui): optimize code -->
 <!-- refactor(ui): clean layout -->
+<!-- docs(auth): fix logic -->
