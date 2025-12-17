@@ -540,3 +540,4 @@ MIT
 <!-- perf(dashboard): merge error handling -->
 <!-- refactor(deps): refactor documentation -->
 <!-- refactor(kanban): optimize styles -->
+<!-- ci(utils): refactor documentation -->
