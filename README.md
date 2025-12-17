@@ -354,3 +354,4 @@ MIT
 <!-- perf(ui): optimize tests -->
 <!-- fix(admin): add logic -->
 <!-- perf(dashboard): remove performance -->
+<!-- refactor(admin): update error handling -->
