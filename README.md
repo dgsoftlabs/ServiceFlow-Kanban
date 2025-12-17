@@ -265,3 +265,4 @@ MIT
 <!-- feat(config): improve styles -->
 <!-- refactor(config): improve performance -->
 <!-- chore(kanban): improve error handling -->
+<!-- chore(auth): add component -->
