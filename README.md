@@ -330,3 +330,4 @@ MIT
 <!-- style(admin): refactor code -->
 <!-- perf(api): improve documentation -->
 <!-- feat(api): remove tests -->
+<!-- refactor(deps): update documentation -->
