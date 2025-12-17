@@ -59,11 +59,6 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
   }
 }
 
-import { canEditTask, canDeleteTask } from '@/lib/permissions'
-import { updateTaskSchema, workerUpdateTaskSchema } from '@/lib/validations'
-
-// ... existing imports
-
 export async function PATCH(request: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions)
