@@ -317,3 +317,4 @@ MIT
 <!-- feat(auth): fix component -->
 <!-- perf(auth): add styles -->
 <!-- refactor(ui): fix bug -->
+<!-- fix(ui): refactor tests -->
