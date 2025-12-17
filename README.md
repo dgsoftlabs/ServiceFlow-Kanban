@@ -366,3 +366,4 @@ MIT
 <!-- docs(ui): fix performance -->
 <!-- chore(ui): fix error handling -->
 <!-- fix(config): fix tests -->
+<!-- build(api): add documentation -->
