@@ -368,3 +368,4 @@ MIT
 <!-- fix(config): fix tests -->
 <!-- build(api): add documentation -->
 <!-- fix(auth): revert documentation -->
+<!-- fix(admin): optimize error handling -->
