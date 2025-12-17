@@ -396,3 +396,4 @@ MIT
 <!-- refactor(db): revert bug -->
 <!-- test(api): merge bug -->
 <!-- perf(deps): revert performance -->
+<!-- feat(auth): remove documentation -->
