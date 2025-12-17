@@ -470,3 +470,4 @@ MIT
 <!-- perf(admin): update tests -->
 <!-- fix(deps): add documentation -->
 <!-- docs(auth): revert component -->
+<!-- docs(admin): remove code -->
