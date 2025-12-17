@@ -300,3 +300,4 @@ MIT
 <!-- style(dashboard): update error handling -->
 <!-- refactor(ui): remove code -->
 <!-- refactor(auth): add code -->
+<!-- docs(admin): refactor code -->
