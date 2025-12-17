@@ -491,3 +491,4 @@ MIT
 <!-- refactor(admin): add styles -->
 <!-- test(kanban): improve layout -->
 <!-- test(dashboard): revert layout -->
+<!-- perf(hooks): optimize component -->
