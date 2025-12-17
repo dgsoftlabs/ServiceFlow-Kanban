@@ -389,3 +389,4 @@ MIT
 <!-- fix(auth): revert layout -->
 <!-- test(config): add code -->
 <!-- style(admin): clean component -->
+<!-- chore(admin): refactor tests -->
