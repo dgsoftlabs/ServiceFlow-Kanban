@@ -386,3 +386,4 @@ MIT
 <!-- feat(admin): update component -->
 <!-- build(hooks): optimize layout -->
 <!-- style(dashboard): revert bug -->
+<!-- fix(auth): revert layout -->
