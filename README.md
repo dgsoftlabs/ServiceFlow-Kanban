@@ -397,3 +397,4 @@ MIT
 <!-- test(api): merge bug -->
 <!-- perf(deps): revert performance -->
 <!-- feat(auth): remove documentation -->
+<!-- test(auth): improve error handling -->
