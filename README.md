@@ -489,3 +489,4 @@ MIT
 <!-- ci(ui): remove tests -->
 <!-- fix(kanban): revert error handling -->
 <!-- refactor(admin): add styles -->
+<!-- test(kanban): improve layout -->
