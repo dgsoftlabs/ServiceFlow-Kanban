@@ -249,3 +249,4 @@ MIT
 <!-- chore: update dev dependencies -->
 <!-- fix: resolve mobile view issue -->
 <!-- feat: optimize performance -->
+<!-- docs: add usage examples -->
