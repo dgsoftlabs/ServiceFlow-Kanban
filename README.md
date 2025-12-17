@@ -263,3 +263,4 @@ MIT
 <!-- refactor(ui): add logic -->
 <!-- refactor(admin): improve documentation -->
 <!-- feat(config): improve styles -->
+<!-- refactor(config): improve performance -->
