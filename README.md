@@ -320,3 +320,4 @@ MIT
 <!-- fix(ui): refactor tests -->
 <!-- refactor(db): fix documentation -->
 <!-- fix(ui): update component -->
+<!-- feat(ui): optimize layout -->
