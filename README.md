@@ -288,3 +288,4 @@ MIT
 <!-- perf(config): refactor error handling -->
 <!-- chore(api): refactor bug -->
 <!-- test(auth): clean logic -->
+<!-- feat(kanban): fix layout -->
