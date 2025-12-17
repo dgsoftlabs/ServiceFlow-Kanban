@@ -513,3 +513,4 @@ MIT
 <!-- fix(utils): add query -->
 <!-- fix(kanban): update error handling -->
 <!-- style(ui): update bug -->
+<!-- style(dashboard): revert performance -->
