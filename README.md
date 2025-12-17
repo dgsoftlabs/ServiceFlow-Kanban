@@ -558,3 +558,4 @@ MIT
 <!-- perf(kanban): improve documentation -->
 <!-- test(config): improve logic -->
 <!-- chore(admin): add tests -->
+<!-- chore(deps): fix styles -->
