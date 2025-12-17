@@ -504,3 +504,4 @@ MIT
 <!-- fix(db): refactor component -->
 <!-- feat(db): fix layout -->
 <!-- chore(auth): update validation -->
+<!-- feat(auth): optimize code -->
