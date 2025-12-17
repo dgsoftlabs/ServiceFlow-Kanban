@@ -355,3 +355,4 @@ MIT
 <!-- fix(admin): add logic -->
 <!-- perf(dashboard): remove performance -->
 <!-- refactor(admin): update error handling -->
+<!-- perf(ui): fix performance -->
