@@ -490,3 +490,4 @@ MIT
 <!-- fix(kanban): revert error handling -->
 <!-- refactor(admin): add styles -->
 <!-- test(kanban): improve layout -->
+<!-- test(dashboard): revert layout -->
