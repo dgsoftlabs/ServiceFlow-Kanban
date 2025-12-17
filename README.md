@@ -477,3 +477,4 @@ MIT
 <!-- build(db): refactor query -->
 <!-- ci(dashboard): remove layout -->
 <!-- build(ui): update styles -->
+<!-- docs(deps): remove styles -->
