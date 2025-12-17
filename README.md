@@ -486,3 +486,4 @@ MIT
 <!-- docs(admin): revert documentation -->
 <!-- style(kanban): optimize validation -->
 <!-- chore(admin): fix query -->
+<!-- ci(ui): remove tests -->
