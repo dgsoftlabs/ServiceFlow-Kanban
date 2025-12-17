@@ -290,3 +290,4 @@ MIT
 <!-- test(auth): clean logic -->
 <!-- feat(kanban): fix layout -->
 <!-- refactor(db): fix styles -->
+<!-- perf(db): add component -->
