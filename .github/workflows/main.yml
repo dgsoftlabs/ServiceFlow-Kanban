@@ -40,7 +40,9 @@ jobs:
 
       - name: Copy static assets to standalone
         run: |
-          cp -r public .next/standalone/public
+          if [ -d "public" ]; then
+            cp -r public .next/standalone/public
+          fi
           cp -r .next/static .next/standalone/.next/static
 
       - name: Upload artifact for deployment job
