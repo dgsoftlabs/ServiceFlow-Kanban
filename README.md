@@ -545,3 +545,4 @@ MIT
 <!-- feat(config): add logic -->
 <!-- test(hooks): update styles -->
 <!-- docs(kanban): clean code -->
+<!-- chore(dashboard): merge tests -->
