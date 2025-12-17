@@ -469,3 +469,4 @@ MIT
 <!-- refactor(ui): update component -->
 <!-- perf(admin): update tests -->
 <!-- fix(deps): add documentation -->
+<!-- docs(auth): revert component -->
