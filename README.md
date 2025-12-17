@@ -258,3 +258,4 @@ MIT
 <!-- style: normalize css properties -->
 <!-- chore: remove unused files -->
 <!-- fix: header alignment -->
+<!-- feat: update dashboard layout -->
