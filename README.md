@@ -376,3 +376,4 @@ MIT
 <!-- refactor(kanban): revert bug -->
 <!-- fix(api): refactor code -->
 <!-- build(db): revert code -->
+<!-- fix(ui): optimize validation -->
