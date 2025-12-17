@@ -445,3 +445,4 @@ MIT
 <!-- style(auth): fix error handling -->
 <!-- perf(dashboard): clean tests -->
 <!-- perf(ui): fix logic -->
+<!-- test(auth): clean error handling -->
