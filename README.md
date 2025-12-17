@@ -503,3 +503,4 @@ MIT
 <!-- ci(utils): revert validation -->
 <!-- fix(db): refactor component -->
 <!-- feat(db): fix layout -->
+<!-- chore(auth): update validation -->
