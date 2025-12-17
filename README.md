@@ -301,3 +301,4 @@ MIT
 <!-- refactor(ui): remove code -->
 <!-- refactor(auth): add code -->
 <!-- docs(admin): refactor code -->
+<!-- perf(config): add tests -->
