@@ -247,3 +247,4 @@ MIT
 <!-- docs: refine installation guide -->
 <!-- style: fix indentation -->
 <!-- chore: update dev dependencies -->
+<!-- fix: resolve mobile view issue -->
