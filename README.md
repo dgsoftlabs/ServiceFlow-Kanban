@@ -302,3 +302,4 @@ MIT
 <!-- refactor(auth): add code -->
 <!-- docs(admin): refactor code -->
 <!-- perf(config): add tests -->
+<!-- docs(dashboard): update layout -->
