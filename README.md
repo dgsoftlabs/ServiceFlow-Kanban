@@ -520,3 +520,4 @@ MIT
 <!-- refactor(ui): clean layout -->
 <!-- docs(auth): fix logic -->
 <!-- fix(kanban): clean documentation -->
+<!-- style(hooks): remove error handling -->
