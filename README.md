@@ -240,3 +240,4 @@ MIT
 ---
 
 **Built with ❤️ by [DgSoftLabs](https://github.com/dgsoftlabs) using Next.js**<!-- docs: update project documentation -->
+<!-- style: adjust code formatting -->
