@@ -472,3 +472,4 @@ MIT
 <!-- docs(auth): revert component -->
 <!-- docs(admin): remove code -->
 <!-- refactor(dashboard): update error handling -->
+<!-- refactor(utils): add error handling -->
