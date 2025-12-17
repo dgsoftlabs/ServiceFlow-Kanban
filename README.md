@@ -507,3 +507,4 @@ MIT
 <!-- feat(auth): optimize code -->
 <!-- refactor(kanban): update validation -->
 <!-- refactor(config): merge documentation -->
+<!-- style(hooks): add styles -->
