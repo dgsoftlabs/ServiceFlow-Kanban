@@ -373,3 +373,4 @@ MIT
 <!-- fix(config): optimize validation -->
 <!-- feat(deps): revert tests -->
 <!-- fix(utils): improve styles -->
+<!-- refactor(kanban): revert bug -->
