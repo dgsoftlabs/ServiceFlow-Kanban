@@ -3,6 +3,8 @@ import { getServerSession } from 'next-auth'
 import { authOptions } from '../auth/[...nextauth]/route'
 import { prisma } from '@/lib/prisma'
 import { UserRole } from '@/lib/types'
+import { canCreateTask, canViewAllTasks } from '@/lib/permissions'
+import { createTaskSchema } from '@/lib/validations'
 
 export async function GET(request: NextRequest) {
   try {
@@ -15,7 +17,7 @@ export async function GET(request: NextRequest) {
     const userId = session.user.id
 
     const tasks = await prisma.task.findMany({
-      where: userRole === UserRole.WORKER 
+      where: !canViewAllTasks(userRole)
         ? { assignedToId: userId }
         : undefined,
       include: {
@@ -45,12 +47,18 @@ export async function POST(request: NextRequest) {
     }
 
     const userRole = session.user.role as UserRole
-    if (userRole === UserRole.WORKER) {
+    if (!canCreateTask(userRole)) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
     }
 
     const body = await request.json()
-    const { title, description, priority, dueDate, assignedToId, columnId } = body
+    const validation = createTaskSchema.safeParse(body)
+
+    if (!validation.success) {
+      return NextResponse.json({ error: validation.error.errors }, { status: 400 })
+    }
+
+    const { title, description, priority, dueDate, assignedToId, columnId } = validation.data
 
     // Get max position in column
     const maxPosition = await prisma.task.aggregate({

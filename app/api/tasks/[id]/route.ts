@@ -3,11 +3,13 @@ import { getServerSession } from 'next-auth'
 import { authOptions } from '../../auth/[...nextauth]/route'
 import { prisma } from '@/lib/prisma'
 import { UserRole } from '@/lib/types'
+import { canEditTask, canDeleteTask } from '@/lib/permissions'
+import { updateTaskSchema, workerUpdateTaskSchema } from '@/lib/validations'
 
 interface RouteParams {
-  params: {
+  params: Promise<{
     id: string
-  }
+  }>
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
@@ -17,8 +19,10 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
+    const { id } = await params
+
     const task = await prisma.task.findUnique({
-      where: { id: params.id },
+      where: { id },
       include: {
         assignedTo: {
           select: { id: true, name: true, email: true },
@@ -55,6 +59,11 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
   }
 }
 
+import { canEditTask, canDeleteTask } from '@/lib/permissions'
+import { updateTaskSchema, workerUpdateTaskSchema } from '@/lib/validations'
+
+// ... existing imports
+
 export async function PATCH(request: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions)
@@ -62,8 +71,10 @@ export async function PATCH(request: NextRequest, { params }: RouteParams) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
+    const { id } = await params
+
     const task = await prisma.task.findUnique({
-      where: { id: params.id },
+      where: { id },
     })
 
     if (!task) {
@@ -74,30 +85,46 @@ export async function PATCH(request: NextRequest, { params }: RouteParams) {
     const userRole = session.user.role as UserRole
     const isAssigned = task.assignedToId === session.user.id
     
-    if (userRole === UserRole.WORKER && !isAssigned) {
+    if (!canEditTask(userRole, isAssigned)) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
     }
 
     const body = await request.json()
-    const updates: any = {}
+    
+    // Validate body based on role
+    let validation
+    if (userRole === UserRole.WORKER) {
+      validation = workerUpdateTaskSchema.safeParse(body)
+    } else {
+      validation = updateTaskSchema.safeParse(body)
+    }
 
-    if (body.columnId !== undefined) {
+    if (!validation.success) {
+      return NextResponse.json({ error: validation.error.errors }, { status: 400 })
+    }
+
+    const updates: any = {}
+    const data = validation.data
+
+    if (data.columnId !== undefined) {
       const newColumn = await prisma.column.findUnique({
-        where: { id: body.columnId },
+        where: { id: data.columnId },
       })
-      updates.columnId = body.columnId
+      updates.columnId = data.columnId
       updates.status = newColumn?.status
     }
-    if (body.title !== undefined) updates.title = body.title
-    if (body.description !== undefined) updates.description = body.description
-    if (body.priority !== undefined) updates.priority = body.priority
-    if (body.dueDate !== undefined) updates.dueDate = body.dueDate ? new Date(body.dueDate) : null
-    if (body.assignedToId !== undefined) updates.assignedToId = body.assignedToId
-    if (body.isBlocked !== undefined) updates.isBlocked = body.isBlocked
-    if (body.blockReason !== undefined) updates.blockReason = body.blockReason
+    
+    // Only apply other updates if they exist in the validated data
+    if ('title' in data) updates.title = data.title
+    if ('description' in data) updates.description = data.description
+    if ('priority' in data) updates.priority = data.priority
+    if ('dueDate' in data) updates.dueDate = data.dueDate ? new Date(data.dueDate) : null
+    if ('assignedToId' in data) updates.assignedToId = data.assignedToId
+    if ('isBlocked' in data) updates.isBlocked = data.isBlocked
+    if ('blockReason' in data) updates.blockReason = data.blockReason
 
     const updatedTask = await prisma.task.update({
-      where: { id: params.id },
+      where: { id },
       data: updates,
       include: {
         assignedTo: {
@@ -136,13 +163,15 @@ export async function DELETE(request: NextRequest, { params }: RouteParams) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
+    const { id } = await params
+
     const userRole = session.user.role as UserRole
-    if (userRole === UserRole.WORKER) {
+    if (!canDeleteTask(userRole)) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
     }
 
     await prisma.task.delete({
-      where: { id: params.id },
+      where: { id },
     })
 
     // Create audit log
@@ -150,7 +179,7 @@ export async function DELETE(request: NextRequest, { params }: RouteParams) {
       data: {
         action: 'DELETE',
         entity: 'TASK',
-        entityId: params.id,
+        entityId: id,
         userId: session.user.id,
       },
     })

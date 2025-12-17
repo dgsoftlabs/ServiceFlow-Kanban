@@ -43,7 +43,16 @@ export default function KanbanBoard({
     if (!over) return
 
     const taskId = active.id as string
-    const newColumnId = over.id as string
+    let newColumnId = over.id as string
+
+    // Check if dropped over a task instead of a column
+    const isOverTask = tasks.some(t => t.id === newColumnId)
+    if (isOverTask) {
+      const overTask = tasks.find(t => t.id === newColumnId)
+      if (overTask) {
+        newColumnId = overTask.columnId
+      }
+    }
 
     const task = tasks.find((t) => t.id === taskId)
     if (!task) return
