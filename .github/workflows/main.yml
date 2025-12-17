@@ -13,7 +13,7 @@ on:
         type: boolean
 
 env:
-  AZURE_WEBAPP_NAME: 'serviceflow-kanban' # Zmie� na nazw� swojej aplikacji w Azure
+  AZURE_WEBAPP_NAME: 'serviceflow-kanban'
   NODE_VERSION: '18.x'
 
 jobs:
@@ -48,6 +48,7 @@ jobs:
         with:
           name: node-app
           path: .next/standalone
+          retention-days: 7
 
   deploy:
     runs-on: ubuntu-latest
