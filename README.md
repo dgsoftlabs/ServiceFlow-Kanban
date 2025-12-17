@@ -331,3 +331,4 @@ MIT
 <!-- perf(api): improve documentation -->
 <!-- feat(api): remove tests -->
 <!-- refactor(deps): update documentation -->
+<!-- feat(admin): refactor component -->
