@@ -553,3 +553,4 @@ MIT
 <!-- ci(deps): clean performance -->
 <!-- docs(hooks): merge logic -->
 <!-- build(admin): update query -->
+<!-- feat(config): update tests -->
