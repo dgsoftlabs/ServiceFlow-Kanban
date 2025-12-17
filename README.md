@@ -261,3 +261,4 @@ MIT
 <!-- feat: update dashboard layout -->
 <!-- docs(auth): improve documentation -->
 <!-- refactor(ui): add logic -->
+<!-- refactor(admin): improve documentation -->
