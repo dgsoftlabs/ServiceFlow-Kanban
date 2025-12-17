@@ -303,3 +303,4 @@ MIT
 <!-- docs(admin): refactor code -->
 <!-- perf(config): add tests -->
 <!-- docs(dashboard): update layout -->
+<!-- perf(config): improve documentation -->
