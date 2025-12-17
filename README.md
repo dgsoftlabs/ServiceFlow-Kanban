@@ -272,3 +272,4 @@ MIT
 <!-- refactor(auth): update code -->
 <!-- perf(config): fix component -->
 <!-- feat(dashboard): fix documentation -->
+<!-- test(ui): fix logic -->
