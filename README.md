@@ -243,3 +243,4 @@ MIT
 <!-- style: adjust code formatting -->
 <!-- chore: cleanup configuration -->
 <!-- fix: minor ui glitch -->
+<!-- refactor: simplify component structure -->
