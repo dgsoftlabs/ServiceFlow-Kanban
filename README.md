@@ -364,3 +364,4 @@ MIT
 <!-- build(utils): remove performance -->
 <!-- refactor(ui): refactor layout -->
 <!-- docs(ui): fix performance -->
+<!-- chore(ui): fix error handling -->
