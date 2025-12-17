@@ -388,3 +388,4 @@ MIT
 <!-- style(dashboard): revert bug -->
 <!-- fix(auth): revert layout -->
 <!-- test(config): add code -->
+<!-- style(admin): clean component -->
