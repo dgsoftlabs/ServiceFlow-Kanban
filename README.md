@@ -274,3 +274,4 @@ MIT
 <!-- feat(dashboard): fix documentation -->
 <!-- test(ui): fix logic -->
 <!-- docs(db): refactor layout -->
+<!-- docs(ui): remove component -->
